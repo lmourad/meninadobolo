@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/menuitem"
+        android:icon="@drawable/menu"
+        android:title="MENU" />
+
+    <item
+        android:id="@+id/meuspedidos"
+        android:icon="@drawable/pedidos"
+        android:title="MEUS PEDIDOS" />
+
+    <item android:title="MINHA CONTA"
+        android:id="@+id/minhaconta"
+        android:icon="@drawable/account"
+        />
+
+    <item android:title="SOBRE"
+        android:id="@+id/sobre"
+        android:icon="@drawable/about"/>
+
+</menu>

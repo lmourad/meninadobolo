@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/menuitem">
+
+    <fragment
+        android:id="@+id/menuitem"
+        android:name="com.example.meninadobolo1.menu_Fragment"
+        android:label="fragment_menu_"
+        tools:layout="@layout/fragment_menu_" />
+    <fragment
+        android:id="@+id/sobre"
+        android:name="com.example.meninadobolo1.about_Fragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/meuspedidos"
+        android:name="com.example.meninadobolo1.meusPedidos"
+        android:label="fragment_minha_conta"
+        tools:layout="@layout/fragment_minha_conta" />
+    <fragment
+        android:id="@+id/minhaconta"
+        android:name="com.example.meninadobolo1.minhaConta"
+        android:label="fragment_minha_conta"
+        tools:layout="@layout/fragment_minha_conta" />
+</navigation>
